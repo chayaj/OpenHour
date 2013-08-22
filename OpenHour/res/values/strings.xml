@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">openHour</string>
+    <!-- Common -->
+    <string name="app_name">Open Hour</string>
+
+    <!-- ActionBar -->
+    <string name="action_search">Search</string>
+
+    <!-- SearchBar -->
+    <string name="search">Search</string>
+    <string name="welcome_text">Find open restaurants near you!</string>
+    <string name="find">Find</string>
+    <string name="search_hint">Restaurant name</string>
+    <string name="near_hint">Location</string>
+
+    <!-- Custom List View -->
+    <string name="image">Thumbnail</string>
+
+    <!-- Yelp API key -->
+    <string name="consumer_key">cTzf4jvwZ3midHB0CubCIQ</string>
+    <string name="consumer_secret">rl1RSyiOYC2bkndqSmaPRZ8EinY</string>
+    <string name="token">eksCrXHOL1J30QKhk6ii3dqQMl4L8AEL</string>
+    <string name="token_secret">-OeIwUIShgTl6ZCdt0fpmNlEIHk</string>
+
+    <!-- Filter -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="filter_title">Filter</string>
+    <string-array name="filter_choice">
+        <item>time</item>
+        <item>distance</item>
+        <item>day</item>
+    </string-array>
+
+    <!-- Test -->
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_display_message">My Message</string>
+    <string name="fire">Fire</string>
+
 </resources>

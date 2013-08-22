@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <style name="ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_default_action_bar</item>
+        <item name="android:paddingLeft">@dimen/padding_action_bar</item>
+        <item name="android:paddingRight">@dimen/padding_action_bar</item>
+    </style>
+
+    <style name="DefaultRootView">
+        <item name="android:background">@color/background_default</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenHour/OpenHour.iml" filepath="$PROJECT_DIR$/OpenHour/OpenHour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/~apklib-com.fortysevendeg.commons_android-lib-facebook-sdk_5.1-20120928.085323-3.iml" filepath="$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/~apklib-com.fortysevendeg.commons_android-lib-facebook-sdk_5.1-20120928.085323-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/~apklib-com.slidingmenu_slidingmenu-lib_1.0.2-47-Build.iml" filepath="$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/~apklib-com.slidingmenu_slidingmenu-lib_1.0.2-47-Build.iml" />
+    </modules>
+  </component>
+</project>
+
