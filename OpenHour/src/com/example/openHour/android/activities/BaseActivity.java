@@ -11,6 +11,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.SearchView;
 import android.widget.Toast;
+import com.example.openHour.android.dialogs.AlertDialogManager;
 import com.example.openHour.android.R;
 
 public class BaseActivity extends Activity {
@@ -58,8 +59,13 @@ public class BaseActivity extends Activity {
      * Filter button is clicked
      */
     public void openFilter() {
+        AlertDialogManager alert = new AlertDialogManager();
+        alert.showAlertDialog(this, "Filter", "Please choose your filter option.", true);
+
+        /*
         Intent intent = new Intent(this, FilterActivity.class);
         startActivity(intent);
+        */
     }
 
     /**

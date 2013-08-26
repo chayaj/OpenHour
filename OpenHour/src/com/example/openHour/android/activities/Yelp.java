@@ -13,6 +13,7 @@ public class Yelp {
 
     OAuthService service;
     Token accessToken;
+    private static final String API_URL = "http://api.yelp.com/v2/search";
 
     public static Yelp getYelp(Context context) {
         return new Yelp(context.getString(R.string.consumer_key), context.getString(R.string.consumer_secret),
@@ -43,7 +44,7 @@ public class Yelp {
      * @return JSON string response
      */
     public String search(String term, double latitude, double longitude) {
-        OAuthRequest request = new OAuthRequest(Verb.GET, "http://api.yelp.com/v2/search");
+        OAuthRequest request = new OAuthRequest(Verb.GET, API_URL);
         request.addQuerystringParameter("term", term);
         request.addQuerystringParameter("ll", latitude + "," + longitude);
         this.service.signRequest(this.accessToken, request);
@@ -59,27 +60,15 @@ public class Yelp {
      * @return JSON string response
      */
     public String search(String term, String location) {
-        OAuthRequest request = new OAuthRequest(Verb.GET, "http://api.yelp.com/v2/search");
+        OAuthRequest request = new OAuthRequest(Verb.GET, API_URL);
         request.addQuerystringParameter("term", term);
         request.addQuerystringParameter("location", location);
+
+        String url1 = request.getUrl();
         this.service.signRequest(this.accessToken, request);
+
+        String url2 = request.getUrl();
         Response response = request.send();
         return response.getBody();
     }
-
-    // CLI
-    /*
-    public static void main(String[] args) {
-        // Update tokens here from Yelp developers site, Manage API access.
-        String consumerKey = "cTzf4jvwZ3midHB0CubCIQ";
-        String consumerSecret = "rl1RSyiOYC2bkndqSmaPRZ8EinY";
-        String token = "eksCrXHOL1J30QKhk6ii3dqQMl4L8AEL";
-        String tokenSecret = "-OeIwUIShgTl6ZCdt0fpmNlEIHk";
-
-        Yelp yelp = new Yelp(consumerKey, consumerSecret, token, tokenSecret);
-        String response = yelp.search("burritos", 30.361471, -87.164326);
-
-        System.out.println(response);
-    }
-    */
 }

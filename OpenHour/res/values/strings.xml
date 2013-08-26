@@ -22,6 +22,10 @@
     <string name="token">eksCrXHOL1J30QKhk6ii3dqQMl4L8AEL</string>
     <string name="token_secret">-OeIwUIShgTl6ZCdt0fpmNlEIHk</string>
 
+    <!-- Foursquare API key -->
+    <string name="client_id">MRNNX23LVCRUMBFXJ504TVEVBIQWHJX1HCE0NWXK5ZJAURC5</string>
+    <string name="client_secret">T1ZLX5LTIDN2J0VDSS30Q0ZH5LWAQTZ124ID2YELKO0GLUJZ</string>
+
     <!-- Filter -->
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>

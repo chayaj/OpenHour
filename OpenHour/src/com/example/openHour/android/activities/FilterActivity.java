@@ -46,10 +46,10 @@ public class FilterActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.filter_activity);
 
-        Button bCancel = (Button) findViewById(R.id.filter_cancel);
+        Button bCancel = (Button) findViewById(R.id.b_filter_cancel);
         bCancel.setOnClickListener(clickCancel);
 
-        Button bSave = (Button) findViewById(R.id.filter_save);
+        Button bSave = (Button) findViewById(R.id.b_filter_save);
         bSave.setOnClickListener(clickSave);
     }
 }

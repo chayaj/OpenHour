@@ -1,10 +1,18 @@
 package com.example.openHour.android.components;
 
+/**
+ * Yelp business attribute
+ */
 public class Business {
     private String name;
     private String mobileUrl;
     private String imageUrl;
     private String phone;
+
+    /**
+     * Constructor
+     */
+    public Business() {}
 
     public Business(String name, String mobileUrl, String imageUrl, String phone) {
         this.name = name;

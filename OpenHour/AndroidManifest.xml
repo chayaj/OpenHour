@@ -23,7 +23,8 @@
         </activity>
         <activity android:name=".activities.FilterActivity"/>
         <activity android:name=".activities.YelpSearchListActivity"/>
-
+        <activity android:name=".activities.FsqSearchListActivity"/>
+        <activity android:name=".activities.GooSearchListActivity"/>
     </application>
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />

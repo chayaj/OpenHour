@@ -8,10 +8,6 @@ package com.example.openHour.android.adapters;
  * To change this template use File | Settings | File Templates.
  */
 
-import java.util.List;
-
-import com.example.openHour.android.R;
-import com.example.openHour.android.components.Business;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -20,13 +16,18 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.example.openHour.android.R;
+import com.example.openHour.android.components.Business;
+import com.example.openHour.android.components.FsqVenue;
 
-public class CustomListViewAdapter extends ArrayAdapter<Business> {
+import java.util.List;
+
+public class FsqCustomListViewAdapter extends ArrayAdapter<FsqVenue> {
 
     Context context;
 
-    public CustomListViewAdapter(Context context, int resourceId,
-                                 List<Business> items) {
+    public FsqCustomListViewAdapter(Context context, int resourceId,
+                                    List<FsqVenue> items) {
         super(context, resourceId, items);
         this.context = context;
     }
@@ -40,24 +41,24 @@ public class CustomListViewAdapter extends ArrayAdapter<Business> {
 
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder = null;
-        Business rowItem = getItem(position);
+        FsqVenue rowItem = getItem(position);
 
         LayoutInflater mInflater = (LayoutInflater) context
                 .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
             convertView = mInflater.inflate(R.layout.list_item, null);
             holder = new ViewHolder();
-            holder.txtDesc = (TextView) convertView.findViewById(R.id.desc);
-            holder.txtTitle = (TextView) convertView.findViewById(R.id.title);
-            holder.imageView = (ImageView) convertView.findViewById(R.id.icon);
+            holder.txtDesc = (TextView) convertView.findViewById(R.id.tv_desc);
+            holder.txtTitle = (TextView) convertView.findViewById(R.id.tv_title);
+            holder.imageView = (ImageView) convertView.findViewById(R.id.iv_icon);
             convertView.setTag(holder);
         } else
             holder = (ViewHolder) convertView.getTag();
 
-        holder.txtDesc.setText(rowItem.getPhone());
+        holder.txtDesc.setText(rowItem.getAddress());
         holder.txtTitle.setText(rowItem.getName());
         //holder.imageView.setImageResource(Uri.parse(rowItem.getImageUrl()));
-        holder.imageView.setImageResource(R.drawable.yelp_logo);
+        holder.imageView.setImageResource(R.drawable.foursquare_logo);
 
         return convertView;
     }
