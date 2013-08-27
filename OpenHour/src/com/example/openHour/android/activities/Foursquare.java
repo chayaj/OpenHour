@@ -16,6 +16,8 @@ public class Foursquare {
     OAuthService service;
 
     private static final String API_URL = "https://api.foursquare.com/v2/venues/search";
+    private static final String fsq_clientid = "";
+    private static final String fsq_clientsecret = "";
 
     public static Foursquare getFsq(Context context) {
         return new Foursquare(context.getString(R.string.client_id), context.getString(R.string.client_secret));
@@ -46,8 +48,8 @@ public class Foursquare {
         request.addQuerystringParameter("ll", latitude + "," + longitude);
         request.addQuerystringParameter("query", term);
         request.addQuerystringParameter("limit", "5");
-        request.addQuerystringParameter("client_id", "MRNNX23LVCRUMBFXJ504TVEVBIQWHJX1HCE0NWXK5ZJAURC5");
-        request.addQuerystringParameter("client_secret", "T1ZLX5LTIDN2J0VDSS30Q0ZH5LWAQTZ124ID2YELKO0GLUJZ");
+        request.addQuerystringParameter("client_id", fsq_clientid);
+        request.addQuerystringParameter("client_secret", fsq_clientsecret);
         request.addQuerystringParameter("v", timeMilisToString(System.currentTimeMillis()));
         Response response = request.send();
         return response.getBody();
@@ -65,8 +67,8 @@ public class Foursquare {
         request.addQuerystringParameter("near", location);
         request.addQuerystringParameter("query", term);
         request.addQuerystringParameter("limit", "5");
-        request.addQuerystringParameter("client_id", "MRNNX23LVCRUMBFXJ504TVEVBIQWHJX1HCE0NWXK5ZJAURC5");
-        request.addQuerystringParameter("client_secret", "T1ZLX5LTIDN2J0VDSS30Q0ZH5LWAQTZ124ID2YELKO0GLUJZ");
+        request.addQuerystringParameter("client_id", fsq_clientid);
+        request.addQuerystringParameter("client_secret", fsq_clientsecret);
         request.addQuerystringParameter("v", timeMilisToString(System.currentTimeMillis()));
         Response response = request.send();
         return response.getBody();

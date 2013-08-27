@@ -17,14 +17,14 @@
     <string name="image">Thumbnail</string>
 
     <!-- Yelp API key -->
-    <string name="consumer_key">cTzf4jvwZ3midHB0CubCIQ</string>
-    <string name="consumer_secret">rl1RSyiOYC2bkndqSmaPRZ8EinY</string>
-    <string name="token">eksCrXHOL1J30QKhk6ii3dqQMl4L8AEL</string>
-    <string name="token_secret">-OeIwUIShgTl6ZCdt0fpmNlEIHk</string>
+    <string name="consumer_key"></string>
+    <string name="consumer_secret"></string>
+    <string name="token"></string>
+    <string name="token_secret">-</string>
 
     <!-- Foursquare API key -->
-    <string name="client_id">MRNNX23LVCRUMBFXJ504TVEVBIQWHJX1HCE0NWXK5ZJAURC5</string>
-    <string name="client_secret">T1ZLX5LTIDN2J0VDSS30Q0ZH5LWAQTZ124ID2YELKO0GLUJZ</string>
+    <string name="client_id"></string>
+    <string name="client_secret"></string>
 
     <!-- Filter -->
     <string name="save">Save</string>
