@@ -261,9 +261,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aee8486-e40e-4793-b080-331cbbdb28cb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenHour/src/com/example/openHour/MyActivity.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/OpenHour/src/OpenHourApplication.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/OpenHour/src/DisplayMessageActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenHour/src/com/example/openHour/MyActivity.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/OpenHour/src/MainActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenHour/OpenHour.iml" afterPath="$PROJECT_DIR$/OpenHour/OpenHour.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenHour/AndroidManifest.xml" afterPath="$PROJECT_DIR$/OpenHour/AndroidManifest.xml" />
@@ -321,16 +321,16 @@
     <file path="/FsqSearchListActivity.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377380378881" ignored="false" />
     <file path="/FsqCustomListViewAdapter.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377380976749" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidFoursquare-master/res/layout/main.xml" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377369931235" ignored="false" />
-    <file path="$PROJECT_DIR$/OpenHour/gen/com/example/openHour/android/R.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377539482463" ignored="false" />
+    <file path="$PROJECT_DIR$/OpenHour/gen/com/example/openHour/android/R.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377632274809" ignored="false" />
     <file path="/list_item.xml" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377376872102" ignored="false" />
     <file path="$PROJECT_DIR$/../GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/GooglePlaces.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377538553264" ignored="false" />
     <file path="$PROJECT_DIR$/../GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/AddItemizedOverlay.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377538671876" ignored="false" />
     <file path="/AddItemizedOverlay.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377384203293" ignored="false" />
     <file path="/GPSTracker.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377537556696" ignored="false" />
     <file path="$PROJECT_DIR$/../GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/PlacesMapActivity.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377538698297" ignored="false" />
-    <file path="$USER_HOME$/Documents/androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/project.properties" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542764983" ignored="false" />
-    <file path="$USER_HOME$/Documents/androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/AddItemizedOverlay.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542806185" ignored="false" />
-    <file path="$USER_HOME$/Documents/androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/GooglePlaces.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542999404" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/project.properties" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542764983" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/AddItemizedOverlay.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542806185" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidProject/GooglePlacesAndMaps/GooglePlacesAndMaps/src/com/androidhive/googleplacesandmaps/GooglePlaces.java" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377542999404" ignored="false" />
     <file path="/README.md" changelist="5aee8486-e40e-4793-b080-331cbbdb28cb" time="1377629120568" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -347,38 +347,6 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java" line="34" class="com.example.openHour.android.activities.FsqSearchListActivity" package="com.example.openHour.android.activities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Yelp.java" line="63" class="com.example.openHour.android.activities.Yelp" package="com.example.openHour.android.activities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -415,6 +383,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java" line="34" class="com.example.openHour.android.activities.FsqSearchListActivity" package="com.example.openHour.android.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Yelp.java" line="63" class="com.example.openHour.android.activities.Yelp" package="com.example.openHour.android.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -427,7 +427,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="81" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
+            <state line="43" column="81" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-0.6">
               <folding />
             </state>
           </provider>
@@ -437,26 +437,15 @@
         <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Foursquare.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="70" column="73" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FsqSearchListActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="67" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="FsqSearchListActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="63" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2453271">
+            <state line="44" column="55" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.16042781">
               <folding />
             </state>
           </provider>
@@ -494,8 +483,8 @@
         <option value="$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/BaseActivity.java" />
         <option value="$PROJECT_DIR$/OpenHour/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Foursquare.java" />
-        <option value="$PROJECT_DIR$/OpenHour/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/OpenHour/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -595,8 +584,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenHour" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="OpenHour" />
@@ -666,11 +666,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
@@ -678,7 +677,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidFoursquare-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DEBUGGABLE_DEVICE" value="cb908ef8" />
@@ -941,16 +940,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.36236647" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.49958915" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.49958915" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6376335" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26806724" sideWeight="0.6707317" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24352828" sideWeight="0.67157584" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32842416" sideWeight="0.49958915" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24272819" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.49958915" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270337" sideWeight="0.6707317" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270337" sideWeight="0.6707317" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31437436" sideWeight="0.6707317" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1024,63 +1023,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OpenHour/res/layout/search_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="69" selection-start="3070" selection-end="3070" vertical-scroll-proportion="-48.88889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/GooSearchListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FilterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="25" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/res/drawable-hdpi/success.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="65" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.41954023">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/dialogs/AlertDialogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="189" selection-end="189" vertical-scroll-proportion="0.057471264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/OpenHourApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="34" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.9430255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Yelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08840864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/YelpApi2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.11494253">
@@ -1104,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="81" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
+        <state line="43" column="81" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-0.6">
           <folding />
         </state>
       </provider>
@@ -1112,29 +1054,83 @@
     <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/Foursquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="73" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7359813">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="67" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2453271">
+        <state line="3" column="25" selection-start="44" selection-end="44" vertical-scroll-proportion="0.07188498">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/com.fortysevendeg.commons_android-lib-facebook-sdk_5.1-20120928.085323-3/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="56" selection-start="314" selection-end="314" vertical-scroll-proportion="0.19169329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="210" selection-end="210" vertical-scroll-proportion="0.61893207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/com.fortysevendeg.commons_android-lib-facebook-sdk_5.1-20120928.085323-3/src/com/facebook/android/DialogError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.24725275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/com.fortysevendeg.commons_android-lib-facebook-sdk_5.1-20120928.085323-3/src/com/facebook/android/AsyncFacebookRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="48" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-6.395349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/com.slidingmenu_slidingmenu-lib_1.0.2-47-Build/src/com/slidingmenu/lib/CanvasTranformerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15503876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handheld/Android/gen-external-apklibs/com.slidingmenu_slidingmenu-lib_1.0.2-47-Build/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="71" selection-start="107" selection-end="107" vertical-scroll-proportion="0.03640777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenHour/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenHour/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenHour/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="234" selection-end="234" vertical-scroll-proportion="0.033546325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenHour/src/com/example/openHour/android/activities/FsqSearchListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="55" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.16042781">
           <folding />
         </state>
       </provider>
@@ -1179,7 +1175,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1215,7 +1211,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>libs</last-edited>
+          <last-edited>Maven: actionbarsherlock:plugin-maps:4.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
